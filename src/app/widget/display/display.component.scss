@@ -1,5 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
 .display {
   width: 100%;
   height: 5rem;
   background-color: blanchedalmond;
+  text-align: end;
+  font-size: 2rem;
+  color: #2b2b2b;
+  padding: 1rem;
+  overflow-y: hidden;
 }
