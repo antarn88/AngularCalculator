@@ -1,0 +1,40 @@
+<div class="calculator">
+  <div class="display-container mb-1">
+    <app-display></app-display>
+  </div>
+
+
+  <div class="button-container">
+    <div class="line-1 d-flex justify-content-evenly">
+      <app-button [label]="'9'"></app-button>
+      <app-button [label]="'8'"></app-button>
+      <app-button [label]="'7'"></app-button>
+      <app-button [label]="'+'"></app-button>
+    </div>
+
+    <div class="line-2 d-flex justify-content-evenly">
+      <app-button [label]="'6'"></app-button>
+      <app-button [label]="'5'"></app-button>
+      <app-button [label]="'4'"></app-button>
+      <app-button [label]="'-'"></app-button>
+    </div>
+
+    <div class="line-3 d-flex justify-content-evenly">
+      <app-button [label]="'3'"></app-button>
+      <app-button [label]="'2'"></app-button>
+      <app-button [label]="'1'"></app-button>
+      <app-button [label]="'Del'"></app-button>
+    </div>
+
+    <div class="line-4 d-flex justify-content-between px-3">
+      <app-button [label]="'0'"></app-button>
+      <app-button [label]="'.'"></app-button>
+      <app-button [label]="'C'"></app-button>
+    </div>
+
+    <div class="line-5 px-3">
+      <app-button [label]="'='" [wide]="true"></app-button>
+    </div>
+
+  </div>
+</div>
